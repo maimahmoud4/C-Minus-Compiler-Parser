@@ -1,0 +1,6 @@
+/* Test 3: Syntax Error
+   Missing '{' after program name */
+Program test3
+    int x;
+    x = 5
+}

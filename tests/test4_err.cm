@@ -1,0 +1,9 @@
+/* Test 4: Syntax Error
+   Incomplete expression - missing right-hand operand */
+Program test4 {
+    int x;
+    int y;
+
+    x = 10;
+    y = x +
+}

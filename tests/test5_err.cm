@@ -1,0 +1,9 @@
+/* Test 5: Syntax Error
+   Missing '=' in assignment statement */
+Program test5 {
+    int a;
+    int b;
+
+    a = 5;
+    b 10
+}

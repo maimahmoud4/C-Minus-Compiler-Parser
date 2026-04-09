@@ -1,0 +1,8 @@
+/* Test 6: Syntax Error (demonstrates corrected Rule 5)
+   Empty program body - no statements present.
+   Under the ORIGINAL rule (| empty) this would have been valid.
+   Under the CORRECTED rule (| statement) this is a syntax error
+   because statement-list requires at least one statement. */
+Program test6 {
+    int x;
+}

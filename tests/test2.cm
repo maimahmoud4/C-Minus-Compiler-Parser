@@ -1,0 +1,27 @@
+/* Test 2: Valid program
+   Array declarations, index expressions, relational operators */
+Program test2 {
+    int arr[10];
+    int i;
+    int total;
+    float avg;
+
+    i = 0;
+    total = 0;
+
+    while (i < 10) {
+        arr[i] = i * 2;
+        total = total + arr[i];
+        i = i + 1
+    };
+
+    avg = total / 10;
+
+    if (avg >= 5) {
+        if (avg != 9) {
+            total = total - 1
+        }
+    } else {
+        total = 0
+    }
+}

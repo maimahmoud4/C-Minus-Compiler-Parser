@@ -1,0 +1,22 @@
+/* Test 1: Valid program
+   Variables, arithmetic, if-else, while loop */
+Program test1 {
+    int x;
+    int y;
+    float result;
+
+    x = 10;
+    y = 3;
+    result = 0.0;
+
+    while (x > 0) {
+        x = x - 1;
+        if (x == y) {
+            result = x + y
+        } else {
+            result = x * y
+        }
+    };
+
+    y = (x + 5) * 2
+}
